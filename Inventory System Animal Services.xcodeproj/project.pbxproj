@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01335B90208EE69B0031545B /* CustomProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01335B8F208EE69B0031545B /* CustomProductCell.swift */; };
+		01335B92208EEB530031545B /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01335B91208EEB530031545B /* ItemsTableViewController.swift */; };
+		01335B97208EEDC90031545B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01335B96208EEDC90031545B /* DetailViewController.swift */; };
+		01335B99208EEF450031545B /* CustomLogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01335B98208EEF450031545B /* CustomLogCell.swift */; };
+		01335B9D208EF5A50031545B /* ReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01335B9C208EF5A50031545B /* ReportsViewController.swift */; };
+		01335B9F208EF6830031545B /* ItemsClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01335B9E208EF6830031545B /* ItemsClass.swift */; };
+		01335BA1208EFCD60031545B /* LogItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01335BA0208EFCD60031545B /* LogItem.swift */; };
+		0141BFFB2230EFD30012357C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0141BFFA2230EFD30012357C /* LoginViewController.swift */; };
+		0141BFFD2230F5070012357C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0141BFFC2230F5070012357C /* GoogleService-Info.plist */; };
+		0160B791208654950018F398 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0160B790208654950018F398 /* AppDelegate.swift */; };
+		0160B796208654950018F398 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0160B794208654950018F398 /* Main.storyboard */; };
+		0160B798208654950018F398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0160B797208654950018F398 /* Assets.xcassets */; };
+		0160B79B208654950018F398 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0160B799208654950018F398 /* LaunchScreen.storyboard */; };
+		0160B7A6208654950018F398 /* Inventory_System_Animal_ServicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0160B7A5208654950018F398 /* Inventory_System_Animal_ServicesTests.swift */; };
+		0160B7B1208654950018F398 /* Inventory_System_Animal_ServicesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0160B7B0208654950018F398 /* Inventory_System_Animal_ServicesUITests.swift */; };
+		01642E3A2253CABA00A80938 /* Images copy in Resources */ = {isa = PBXBuildFile; fileRef = 01642E392253CABA00A80938 /* Images copy */; };
+		830657B80DD3AAE035EFAC89 /* Pods_Inventory_System_Animal_Services.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1B79AF35166B364FC76086A /* Pods_Inventory_System_Animal_Services.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0160B7A2208654950018F398 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0160B785208654940018F398 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0160B78C208654940018F398;
+			remoteInfo = "Inventory System Animal Services";
+		};
+		0160B7AD208654950018F398 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0160B785208654940018F398 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0160B78C208654940018F398;
+			remoteInfo = "Inventory System Animal Services";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01335B8F208EE69B0031545B /* CustomProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomProductCell.swift; sourceTree = "<group>"; };
+		01335B91208EEB530031545B /* ItemsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsTableViewController.swift; sourceTree = "<group>"; };
+		01335B96208EEDC90031545B /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		01335B98208EEF450031545B /* CustomLogCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLogCell.swift; sourceTree = "<group>"; };
+		01335B9C208EF5A50031545B /* ReportsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportsViewController.swift; sourceTree = "<group>"; };
+		01335B9E208EF6830031545B /* ItemsClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsClass.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		01335BA0208EFCD60031545B /* LogItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogItem.swift; sourceTree = "<group>"; };
+		0141BFFA2230EFD30012357C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0141BFFC2230F5070012357C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		0160B78D208654940018F398 /* Inventory System Animal Services.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Inventory System Animal Services.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0160B790208654950018F398 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0160B795208654950018F398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0160B797208654950018F398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0160B79A208654950018F398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0160B79C208654950018F398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0160B7A1208654950018F398 /* Inventory System Animal ServicesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Inventory System Animal ServicesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0160B7A5208654950018F398 /* Inventory_System_Animal_ServicesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory_System_Animal_ServicesTests.swift; sourceTree = "<group>"; };
+		0160B7A7208654950018F398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0160B7AC208654950018F398 /* Inventory System Animal ServicesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Inventory System Animal ServicesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0160B7B0208654950018F398 /* Inventory_System_Animal_ServicesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory_System_Animal_ServicesUITests.swift; sourceTree = "<group>"; };
+		0160B7B2208654950018F398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01642E392253CABA00A80938 /* Images copy */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Images copy"; sourceTree = "<group>"; };
+		1002B54A360D373D624618A3 /* Pods-Inventory System Animal Services.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inventory System Animal Services.release.xcconfig"; path = "Pods/Target Support Files/Pods-Inventory System Animal Services/Pods-Inventory System Animal Services.release.xcconfig"; sourceTree = "<group>"; };
+		E1B79AF35166B364FC76086A /* Pods_Inventory_System_Animal_Services.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Inventory_System_Animal_Services.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3AB6B86346075DE36E73D63 /* Pods-Inventory System Animal Services.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inventory System Animal Services.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Inventory System Animal Services/Pods-Inventory System Animal Services.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0160B78A208654940018F398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830657B80DD3AAE035EFAC89 /* Pods_Inventory_System_Animal_Services.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0160B79E208654950018F398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0160B7A9208654950018F398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0160B784208654940018F398 = {
+			isa = PBXGroup;
+			children = (
+				0160B78F208654940018F398 /* Inventory System Animal Services */,
+				0160B7A4208654950018F398 /* Inventory System Animal ServicesTests */,
+				0160B7AF208654950018F398 /* Inventory System Animal ServicesUITests */,
+				0160B78E208654940018F398 /* Products */,
+				33BC64BA76C4EA021323E655 /* Pods */,
+				91F27E2C2349692D6CD63AD5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0160B78E208654940018F398 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0160B78D208654940018F398 /* Inventory System Animal Services.app */,
+				0160B7A1208654950018F398 /* Inventory System Animal ServicesTests.xctest */,
+				0160B7AC208654950018F398 /* Inventory System Animal ServicesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0160B78F208654940018F398 /* Inventory System Animal Services */ = {
+			isa = PBXGroup;
+			children = (
+				0141BFFC2230F5070012357C /* GoogleService-Info.plist */,
+				0160B797208654950018F398 /* Assets.xcassets */,
+				0160B790208654950018F398 /* AppDelegate.swift */,
+				01335B8F208EE69B0031545B /* CustomProductCell.swift */,
+				01335B98208EEF450031545B /* CustomLogCell.swift */,
+				01335B91208EEB530031545B /* ItemsTableViewController.swift */,
+				01335B96208EEDC90031545B /* DetailViewController.swift */,
+				01335B9C208EF5A50031545B /* ReportsViewController.swift */,
+				0160B794208654950018F398 /* Main.storyboard */,
+				01335B9E208EF6830031545B /* ItemsClass.swift */,
+				01335BA0208EFCD60031545B /* LogItem.swift */,
+				0141BFFA2230EFD30012357C /* LoginViewController.swift */,
+				0160B799208654950018F398 /* LaunchScreen.storyboard */,
+				0160B79C208654950018F398 /* Info.plist */,
+			);
+			path = "Inventory System Animal Services";
+			sourceTree = "<group>";
+		};
+		0160B7A4208654950018F398 /* Inventory System Animal ServicesTests */ = {
+			isa = PBXGroup;
+			children = (
+				0160B7A5208654950018F398 /* Inventory_System_Animal_ServicesTests.swift */,
+				0160B7A7208654950018F398 /* Info.plist */,
+			);
+			path = "Inventory System Animal ServicesTests";
+			sourceTree = "<group>";
+		};
+		0160B7AF208654950018F398 /* Inventory System Animal ServicesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0160B7B0208654950018F398 /* Inventory_System_Animal_ServicesUITests.swift */,
+				0160B7B2208654950018F398 /* Info.plist */,
+			);
+			path = "Inventory System Animal ServicesUITests";
+			sourceTree = "<group>";
+		};
+		33BC64BA76C4EA021323E655 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01642E392253CABA00A80938 /* Images copy */,
+				F3AB6B86346075DE36E73D63 /* Pods-Inventory System Animal Services.debug.xcconfig */,
+				1002B54A360D373D624618A3 /* Pods-Inventory System Animal Services.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		91F27E2C2349692D6CD63AD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1B79AF35166B364FC76086A /* Pods_Inventory_System_Animal_Services.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0160B78C208654940018F398 /* Inventory System Animal Services */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0160B7B5208654950018F398 /* Build configuration list for PBXNativeTarget "Inventory System Animal Services" */;
+			buildPhases = (
+				850DDE3CEE12D1F79AE15B1B /* [CP] Check Pods Manifest.lock */,
+				0160B789208654940018F398 /* Sources */,
+				0160B78A208654940018F398 /* Frameworks */,
+				0160B78B208654940018F398 /* Resources */,
+				F17B92EBEB0A29D389481C34 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Inventory System Animal Services";
+			productName = "Inventory System Animal Services";
+			productReference = 0160B78D208654940018F398 /* Inventory System Animal Services.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0160B7A0208654950018F398 /* Inventory System Animal ServicesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0160B7B8208654950018F398 /* Build configuration list for PBXNativeTarget "Inventory System Animal ServicesTests" */;
+			buildPhases = (
+				0160B79D208654950018F398 /* Sources */,
+				0160B79E208654950018F398 /* Frameworks */,
+				0160B79F208654950018F398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0160B7A3208654950018F398 /* PBXTargetDependency */,
+			);
+			name = "Inventory System Animal ServicesTests";
+			productName = "Inventory System Animal ServicesTests";
+			productReference = 0160B7A1208654950018F398 /* Inventory System Animal ServicesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0160B7AB208654950018F398 /* Inventory System Animal ServicesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0160B7BB208654950018F398 /* Build configuration list for PBXNativeTarget "Inventory System Animal ServicesUITests" */;
+			buildPhases = (
+				0160B7A8208654950018F398 /* Sources */,
+				0160B7A9208654950018F398 /* Frameworks */,
+				0160B7AA208654950018F398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0160B7AE208654950018F398 /* PBXTargetDependency */,
+			);
+			name = "Inventory System Animal ServicesUITests";
+			productName = "Inventory System Animal ServicesUITests";
+			productReference = 0160B7AC208654950018F398 /* Inventory System Animal ServicesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0160B785208654940018F398 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Fiu;
+				TargetAttributes = {
+					0160B78C208654940018F398 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = CK9QL8U6M6;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+					};
+					0160B7A0208654950018F398 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = CK9QL8U6M6;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0160B78C208654940018F398;
+					};
+					0160B7AB208654950018F398 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = CK9QL8U6M6;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0160B78C208654940018F398;
+					};
+				};
+			};
+			buildConfigurationList = 0160B788208654940018F398 /* Build configuration list for PBXProject "Inventory System Animal Services" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 0160B784208654940018F398;
+			productRefGroup = 0160B78E208654940018F398 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0160B78C208654940018F398 /* Inventory System Animal Services */,
+				0160B7A0208654950018F398 /* Inventory System Animal ServicesTests */,
+				0160B7AB208654950018F398 /* Inventory System Animal ServicesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0160B78B208654940018F398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01642E3A2253CABA00A80938 /* Images copy in Resources */,
+				0160B79B208654950018F398 /* LaunchScreen.storyboard in Resources */,
+				0141BFFD2230F5070012357C /* GoogleService-Info.plist in Resources */,
+				0160B798208654950018F398 /* Assets.xcassets in Resources */,
+				0160B796208654950018F398 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0160B79F208654950018F398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0160B7AA208654950018F398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		850DDE3CEE12D1F79AE15B1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Inventory System Animal Services-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F17B92EBEB0A29D389481C34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Inventory System Animal Services/Pods-Inventory System Animal Services-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Inventory System Animal Services/Pods-Inventory System Animal Services-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0160B789208654940018F398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0141BFFB2230EFD30012357C /* LoginViewController.swift in Sources */,
+				01335B90208EE69B0031545B /* CustomProductCell.swift in Sources */,
+				01335B99208EEF450031545B /* CustomLogCell.swift in Sources */,
+				01335B9D208EF5A50031545B /* ReportsViewController.swift in Sources */,
+				01335BA1208EFCD60031545B /* LogItem.swift in Sources */,
+				01335B9F208EF6830031545B /* ItemsClass.swift in Sources */,
+				01335B97208EEDC90031545B /* DetailViewController.swift in Sources */,
+				0160B791208654950018F398 /* AppDelegate.swift in Sources */,
+				01335B92208EEB530031545B /* ItemsTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0160B79D208654950018F398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0160B7A6208654950018F398 /* Inventory_System_Animal_ServicesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0160B7A8208654950018F398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0160B7B1208654950018F398 /* Inventory_System_Animal_ServicesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0160B7A3208654950018F398 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0160B78C208654940018F398 /* Inventory System Animal Services */;
+			targetProxy = 0160B7A2208654950018F398 /* PBXContainerItemProxy */;
+		};
+		0160B7AE208654950018F398 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0160B78C208654940018F398 /* Inventory System Animal Services */;
+			targetProxy = 0160B7AD208654950018F398 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0160B794208654950018F398 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0160B795208654950018F398 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0160B799208654950018F398 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0160B79A208654950018F398 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0160B7B3208654950018F398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0160B7B4208654950018F398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0160B7B6208654950018F398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3AB6B86346075DE36E73D63 /* Pods-Inventory System Animal Services.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CK9QL8U6M6;
+				INFOPLIST_FILE = "Inventory System Animal Services/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fiu.Inventory-System-Animal-Services";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0160B7B7208654950018F398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1002B54A360D373D624618A3 /* Pods-Inventory System Animal Services.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CK9QL8U6M6;
+				INFOPLIST_FILE = "Inventory System Animal Services/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fiu.Inventory-System-Animal-Services";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0160B7B9208654950018F398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CK9QL8U6M6;
+				INFOPLIST_FILE = "Inventory System Animal ServicesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fiu.Inventory-System-Animal-ServicesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inventory System Animal Services.app/Inventory System Animal Services";
+			};
+			name = Debug;
+		};
+		0160B7BA208654950018F398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CK9QL8U6M6;
+				INFOPLIST_FILE = "Inventory System Animal ServicesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fiu.Inventory-System-Animal-ServicesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inventory System Animal Services.app/Inventory System Animal Services";
+			};
+			name = Release;
+		};
+		0160B7BC208654950018F398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CK9QL8U6M6;
+				INFOPLIST_FILE = "Inventory System Animal ServicesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fiu.Inventory-System-Animal-ServicesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = "Inventory System Animal Services";
+			};
+			name = Debug;
+		};
+		0160B7BD208654950018F398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CK9QL8U6M6;
+				INFOPLIST_FILE = "Inventory System Animal ServicesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fiu.Inventory-System-Animal-ServicesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = "Inventory System Animal Services";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0160B788208654940018F398 /* Build configuration list for PBXProject "Inventory System Animal Services" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0160B7B3208654950018F398 /* Debug */,
+				0160B7B4208654950018F398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0160B7B5208654950018F398 /* Build configuration list for PBXNativeTarget "Inventory System Animal Services" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0160B7B6208654950018F398 /* Debug */,
+				0160B7B7208654950018F398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0160B7B8208654950018F398 /* Build configuration list for PBXNativeTarget "Inventory System Animal ServicesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0160B7B9208654950018F398 /* Debug */,
+				0160B7BA208654950018F398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0160B7BB208654950018F398 /* Build configuration list for PBXNativeTarget "Inventory System Animal ServicesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0160B7BC208654950018F398 /* Debug */,
+				0160B7BD208654950018F398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0160B785208654940018F398 /* Project object */;
+}

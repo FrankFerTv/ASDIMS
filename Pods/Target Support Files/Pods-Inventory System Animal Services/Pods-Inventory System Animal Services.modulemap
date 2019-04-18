@@ -1,0 +1,6 @@
+framework module Pods_Inventory_System_Animal_Services {
+  umbrella header "Pods-Inventory System Animal Services-umbrella.h"
+
+  export *
+  module * { export * }
+}
