@@ -13,5 +13,5 @@ class CustomProductCell : UITableViewCell {
 
     @IBOutlet weak var itemName: UILabel!
     @IBOutlet weak var Quantity: UILabel!
-  
+   
 }
