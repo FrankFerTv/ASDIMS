@@ -23,7 +23,7 @@
 		0160B7A6208654950018F398 /* Inventory_System_Animal_ServicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0160B7A5208654950018F398 /* Inventory_System_Animal_ServicesTests.swift */; };
 		0160B7B1208654950018F398 /* Inventory_System_Animal_ServicesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0160B7B0208654950018F398 /* Inventory_System_Animal_ServicesUITests.swift */; };
 		01642E3A2253CABA00A80938 /* Images copy in Resources */ = {isa = PBXBuildFile; fileRef = 01642E392253CABA00A80938 /* Images copy */; };
-		830657B80DD3AAE035EFAC89 /* Pods_Inventory_System_Animal_Services.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1B79AF35166B364FC76086A /* Pods_Inventory_System_Animal_Services.framework */; };
+		4D6E45547FCA595040083312 /* Pods_Inventory_System_Animal_Services.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E03FB2C2571EC367093E4B5 /* Pods_Inventory_System_Animal_Services.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,9 +66,9 @@
 		0160B7B0208654950018F398 /* Inventory_System_Animal_ServicesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory_System_Animal_ServicesUITests.swift; sourceTree = "<group>"; };
 		0160B7B2208654950018F398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01642E392253CABA00A80938 /* Images copy */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Images copy"; sourceTree = "<group>"; };
-		1002B54A360D373D624618A3 /* Pods-Inventory System Animal Services.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inventory System Animal Services.release.xcconfig"; path = "Pods/Target Support Files/Pods-Inventory System Animal Services/Pods-Inventory System Animal Services.release.xcconfig"; sourceTree = "<group>"; };
-		E1B79AF35166B364FC76086A /* Pods_Inventory_System_Animal_Services.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Inventory_System_Animal_Services.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3AB6B86346075DE36E73D63 /* Pods-Inventory System Animal Services.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inventory System Animal Services.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Inventory System Animal Services/Pods-Inventory System Animal Services.debug.xcconfig"; sourceTree = "<group>"; };
+		70DF2D9D2CD4910D8A3DD594 /* Pods-Inventory System Animal Services.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inventory System Animal Services.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Inventory System Animal Services/Pods-Inventory System Animal Services.debug.xcconfig"; sourceTree = "<group>"; };
+		7E03FB2C2571EC367093E4B5 /* Pods_Inventory_System_Animal_Services.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Inventory_System_Animal_Services.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EECF9035D0CA4D3174FCC224 /* Pods-Inventory System Animal Services.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inventory System Animal Services.release.xcconfig"; path = "Pods/Target Support Files/Pods-Inventory System Animal Services/Pods-Inventory System Animal Services.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				830657B80DD3AAE035EFAC89 /* Pods_Inventory_System_Animal_Services.framework in Frameworks */,
+				4D6E45547FCA595040083312 /* Pods_Inventory_System_Animal_Services.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,7 +105,7 @@
 				0160B7AF208654950018F398 /* Inventory System Animal ServicesUITests */,
 				0160B78E208654940018F398 /* Products */,
 				33BC64BA76C4EA021323E655 /* Pods */,
-				91F27E2C2349692D6CD63AD5 /* Frameworks */,
+				41FEA28D847A3628F384EED3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -162,16 +162,16 @@
 			isa = PBXGroup;
 			children = (
 				01642E392253CABA00A80938 /* Images copy */,
-				F3AB6B86346075DE36E73D63 /* Pods-Inventory System Animal Services.debug.xcconfig */,
-				1002B54A360D373D624618A3 /* Pods-Inventory System Animal Services.release.xcconfig */,
+				70DF2D9D2CD4910D8A3DD594 /* Pods-Inventory System Animal Services.debug.xcconfig */,
+				EECF9035D0CA4D3174FCC224 /* Pods-Inventory System Animal Services.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		91F27E2C2349692D6CD63AD5 /* Frameworks */ = {
+		41FEA28D847A3628F384EED3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E1B79AF35166B364FC76086A /* Pods_Inventory_System_Animal_Services.framework */,
+				7E03FB2C2571EC367093E4B5 /* Pods_Inventory_System_Animal_Services.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -183,11 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0160B7B5208654950018F398 /* Build configuration list for PBXNativeTarget "Inventory System Animal Services" */;
 			buildPhases = (
-				850DDE3CEE12D1F79AE15B1B /* [CP] Check Pods Manifest.lock */,
+				D7160E861D5CF23327D73EC6 /* [CP] Check Pods Manifest.lock */,
 				0160B789208654940018F398 /* Sources */,
 				0160B78A208654940018F398 /* Frameworks */,
 				0160B78B208654940018F398 /* Resources */,
-				F17B92EBEB0A29D389481C34 /* [CP] Embed Pods Frameworks */,
+				1F3535136ADFE66B09FFDD4C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -246,7 +246,7 @@
 				TargetAttributes = {
 					0160B78C208654940018F398 = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = CK9QL8U6M6;
+						DevelopmentTeam = SG632C44AR;
 						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
@@ -317,29 +317,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		850DDE3CEE12D1F79AE15B1B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Inventory System Animal Services-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F17B92EBEB0A29D389481C34 /* [CP] Embed Pods Frameworks */ = {
+		1F3535136ADFE66B09FFDD4C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -377,6 +355,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Inventory System Animal Services/Pods-Inventory System Animal Services-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7160E861D5CF23327D73EC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Inventory System Animal Services-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -562,15 +562,16 @@
 		};
 		0160B7B6208654950018F398 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3AB6B86346075DE36E73D63 /* Pods-Inventory System Animal Services.debug.xcconfig */;
+			baseConfigurationReference = 70DF2D9D2CD4910D8A3DD594 /* Pods-Inventory System Animal Services.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CK9QL8U6M6;
+				DEVELOPMENT_TEAM = SG632C44AR;
 				INFOPLIST_FILE = "Inventory System Animal Services/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Fiu.Inventory-System-Animal-Services";
+				PRODUCT_BUNDLE_IDENTIFIER = ASDIMS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
@@ -581,15 +582,16 @@
 		};
 		0160B7B7208654950018F398 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1002B54A360D373D624618A3 /* Pods-Inventory System Animal Services.release.xcconfig */;
+			baseConfigurationReference = EECF9035D0CA4D3174FCC224 /* Pods-Inventory System Animal Services.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CK9QL8U6M6;
+				DEVELOPMENT_TEAM = SG632C44AR;
 				INFOPLIST_FILE = "Inventory System Animal Services/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Fiu.Inventory-System-Animal-Services";
+				PRODUCT_BUNDLE_IDENTIFIER = ASDIMS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;

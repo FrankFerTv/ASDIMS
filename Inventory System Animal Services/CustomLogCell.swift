@@ -14,5 +14,5 @@ class CustomLogCell : UITableViewCell {
     @IBOutlet weak var Date: UILabel!
     @IBOutlet weak var Emp: UILabel!
     @IBOutlet weak var Quantity: UILabel!
-
+    var test : String!
 }
